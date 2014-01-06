@@ -12,11 +12,14 @@
 ## 演示
 
 ### 块状按钮
+
+````html
 <a href="javascript:;" class="ali-button ali-button-block ali-button-lorange">橙色大按钮</a>
 <a href="javascript:;" class="ali-button ali-button-block ali-button-lwhite">橙色大按钮</a>
 <a href="javascript:;" class="ali-button ali-button-block ali-button-ldisable">橙色大按钮</a>
 <a href="javascript:;" class="ali-button ali-button-block ali-button-lblue">橙色大按钮</a>
 <a href="javascript:;" class="ali-button ali-button-block ali-button-lgreen">橙色大按钮</a>
+````
 
 ### 橙色按钮 a
 
