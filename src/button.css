@@ -1,0 +1,264 @@
+/*
+ * alistyle.mobile-button 模块
+ * @author ermin.zem
+ * @create 2014-1-6
+ * @version 1.0.1
+ */
+.ali-button * {
+    margin:0;
+    padding:0;
+}
+
+.ali-button {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: inherit; /* Correct font family not being inherited in all browsers for <button> <input> */
+    font-weight: bold;
+    border-radius: 2px;
+    padding: 0 20px;
+    -webkit-box-sizing: border-box;
+}
+
+.ali-button-block{
+    width: 100%;
+}
+
+.ali-button .ali-button-text {
+    background: none;
+    padding: 0;
+    height: auto;
+}
+
+/*! block alice/button/1.2.0/ali-button-orange-debug.css */
+.ali-button-lorange,
+.ali-button-morange,
+.ali-button-sorange {
+    color: #fff;
+    border: none;
+    background-color: #ffa45b;
+}
+
+a.ali-button-lorange,
+a.ali-button-morange,
+a.ali-button-sorange {
+    color:#fff;
+}
+
+.ali-button-lorange {
+    line-height: 40px;
+    height: 40px;
+}
+a.ali-button-lorange{
+    line-height: 38px;
+    height: 38px;
+}
+
+.ali-button-morange {
+    line-height:28px;
+    height:28px;
+}
+a.ali-button-morange{
+    line-height:26px;
+    height:26px;
+}
+
+.ali-button-sorange {
+    padding: 0 12px;
+    line-height:24px;
+    height:24px;
+    font-size:12px;
+}
+a.ali-button-sorange{
+    line-height:22px;
+    height:22px;
+}
+/*! endblock alice/button/1.2.0/ali-button-orange-debug.css */
+
+/*! block alice/button/1.2.0/ali-button-white-debug.css */
+.ali-button-lwhite,
+.ali-button-mwhite,
+.ali-button-swhite {
+    border:1px solid #afafaf;
+    background-color: #f3f3f3;
+    color: #777;
+}
+
+a.ali-button-lwhite,
+a.ali-button-mwhite,
+a.ali-button-swhite {
+    color: #777;
+}
+
+.ali-button-lwhite {
+    line-height:40px;
+    height:40px;
+}
+
+.ali-button-mwhite {
+    line-height:28px;
+    height:28px;
+}
+
+.ali-button-swhite {
+    line-height:24px;
+    height:24px;
+    padding:0 12px;
+    font-size:12px;
+}
+
+a.ali-button-lwhite {
+    line-height:38px;
+    height:38px;
+}
+
+a.ali-button-mwhite {
+    line-height:26px;
+    height:26px;
+}
+
+a.ali-button-swhite {
+    line-height:22px;
+    height:22px;
+}
+/*! endblock alice/button/1.2.0/ali-button-white-debug.css */
+
+/*! block alice/button/1.2.0/ali-button-disable-debug.css */
+.ali-button-ldisable,
+.ali-button-mdisable,
+.ali-button-sdisable {
+    color:#999;
+    border: none;
+    background: #cacccd;
+    cursor: default;
+}
+
+a.ali-button-ldisable,
+a.ali-button-mdisable,
+a.ali-button-sdisable {
+    color:#999;
+}
+
+.ali-button-ldisable {
+    line-height:40px;
+    height:40px;
+}
+
+.ali-button-mdisable {
+    line-height:28px;
+    height:28px;
+}
+
+.ali-button-sdisable {
+    line-height:24px;
+    height:24px;
+    padding:0 12px;
+    font-size:12px;
+}
+/*! endblock alice/button/1.2.0/ali-button-disable-debug.css */
+
+/*! block alice/button/1.2.0/ali-button-blue-debug.css */
+.ali-button-lblue,
+.ali-button-mblue,
+.ali-button-sblue {
+    border:none;
+    color:#fff;
+    border: none;
+    background-color: #3cc3e3;
+}
+
+a.ali-button-lblue,
+a.ali-button-mblue,
+a.ali-button-sblue,
+a.ali-button-lblue:active,
+a.ali-button-mblue:active,
+a.ali-button-sblue:active {
+    color:#fff;
+}
+
+.ali-button-lblue {
+    line-height:40px;
+    height:40px;
+}
+
+.ali-button-mblue {
+    line-height:28px;
+    height:28px;
+}
+
+.ali-button-sblue {
+    padding: 0 12px;
+    line-height:24px;
+    height:24px;
+    font-size:12px;
+}
+
+a.ali-button-lblue {
+    line-height:38px;
+    height:38px;
+}
+
+a.ali-button-mblue {
+    line-height:26px;
+    height:26px;
+}
+
+a.ali-button-sblue {
+    line-height:22px;
+    height:22px;
+}
+/*! endblock alice/button/1.2.0/ali-button-blue-debug.css */
+
+/*! block alice/button/1.2.0/ali-button-green-debug.css */
+.ali-button-lgreen,
+.ali-button-mgreen,
+.ali-button-sgreen {
+    color: #fff;
+    border: none;
+    background-color: #53ca00;
+}
+
+a.ali-button-lgreen,
+a.ali-button-mgreen,
+a.ali-button-sgreen,
+a.ali-button-lgreen:active,
+a.ali-button-mgreen:active,
+a.ali-button-sgreen:active {
+    color:#fff;
+}
+
+.ali-button-lgreen {
+    line-height:40px;
+    height:40px;
+}
+
+.ali-button-mgreen {
+    line-height:28px;
+    height:28px;
+}
+
+.ali-button-sgreen {
+    padding: 0 12px;
+    line-height:24px;
+    height:24px;
+    font-size:12px;
+}
+
+a.ali-button-lgreen {
+    line-height:38px;
+    height:38px;
+}
+
+a.ali-button-mgreen {
+    line-height:26px;
+    height:26px;
+}
+
+a.ali-button-sgreen {
+    line-height:22px;
+    height:22px;
+}
+/*! endblock alice/button/1.2.0/ali-button-green-debug.css */
