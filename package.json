@@ -1,8 +1,8 @@
 {
   "family":      "alimobstyle",
   "name":        "button",
+  "description": "alibaba mobile css theme - 按钮",
   "version":     "1.0.1",
-  "description": "alibaba mobile css theme - button",
   "homepage":    "https://github.com/alimobstyle/button.git",
   "author":      "ermin.zem",
   "repository":  {
@@ -16,7 +16,9 @@
   "licenses": "MIT",
   "spm": {
     "output":   ["button.css"],
-    "alias":    {},
+    "alias":    {
+        "base": "alimobstyle/base/1.0.0/base.css"
+    },
     "devAlias": {},
     "engines":  {}
   },
