@@ -17,7 +17,7 @@
   "spm": {
     "output":   ["button.css"],
     "alias":    {
-        "base": "alimobstyle/base/1.0.0/base.css"
+        "base": "alimobstyle/one/1.0.1/one.css"
     },
     "devAlias": {},
     "engines":  {}

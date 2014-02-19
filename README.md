@@ -7,7 +7,6 @@
 ---
 
 <!--基于aliceui-->
-<link type="text/css" rel="stylesheet" media="screen" href="src/button.css">
 <style>
     .ali-button{
         margin: 2px 0;
